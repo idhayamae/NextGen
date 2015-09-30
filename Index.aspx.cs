@@ -14,25 +14,25 @@ public partial class Index : BasePage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        Response.Redirect("https://vzweb2.verizon.com/");
+        //Response.Redirect("https://vzweb2.verizon.com/");
         try
         {
-            string strEmpEid = CheckSSO();
+            /*string strEmpEid = CheckSSO();
             if (!string.IsNullOrEmpty(strEmpEid))
             {
                 Int64 EmpEid = Convert.ToInt64(strEmpEid);
                 SetUserSession(EmpEid);
-            }
+            }*/
 
             if (!Page.IsPostBack)
             {
                 Label lblPageHeading = (Label)Master.FindControl("lblPageHeading");
-                lblPageHeading.Text = "VDS India";
+                lblPageHeading.Text = "SecurePay";
 
                 Label lblBreadCrumb = (Label)Master.FindControl("lblBreadCrumb");
                 lblBreadCrumb.Text = "Home /";
 
-                LoadContents();
+               // LoadContents();
             }
         }
         catch (Exception ex)

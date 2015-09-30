@@ -134,7 +134,7 @@ namespace Intranet.Utilities
 
                     #endregion
                     BL_Employee objBL = new BL_Employee();
-                    objBL.SaveErrorMessage(sb.ToString());
+                    //objBL.SaveErrorMessage(sb.ToString());
                 }
                 catch
                 {

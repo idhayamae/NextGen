@@ -1,5 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HP.master" AutoEventWireup="true"
-    CodeFile="Index.aspx.cs" Inherits="Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/HP.master" CodeFile="Financialservices.aspx.cs" Inherits="Financialservices" %>
+
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <script type="text/javascript" src="Popup_1/Js/function.js"></script>

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "..\Users\Administrator\Documents\Visual Studio 2012\Projects\SecurePay\UnitTest\UnitTest.csproj", "{99870CC3-5C06-4C5A-87AE-C9FB5B9C612E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SecurePay", "http://localhost:51360", "{2FBA08BB-E9E8-4C2B-B801-191831021978}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/SecurePay"
+		Debug.AspNetCompiler.PhysicalPath = "..\SecurePay\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SecurePay\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SecurePay"
+		Release.AspNetCompiler.PhysicalPath = "..\SecurePay\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SecurePay\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\SecurePay\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99870CC3-5C06-4C5A-87AE-C9FB5B9C612E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99870CC3-5C06-4C5A-87AE-C9FB5B9C612E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99870CC3-5C06-4C5A-87AE-C9FB5B9C612E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99870CC3-5C06-4C5A-87AE-C9FB5B9C612E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FBA08BB-E9E8-4C2B-B801-191831021978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBA08BB-E9E8-4C2B-B801-191831021978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBA08BB-E9E8-4C2B-B801-191831021978}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBA08BB-E9E8-4C2B-B801-191831021978}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -33,7 +33,7 @@ public partial class BasePage : System.Web.UI.Page
         try
         {
             string logedEmpEid = "";
-            logedEmpEid = HttpContext.Current.Request.ServerVariables["HTTP_EID"] + "";
+            //logedEmpEid = HttpContext.Current.Request.ServerVariables["HTTP_EID"] + "";
             //logedEmpEid = "8228529279";
             return logedEmpEid;
         }

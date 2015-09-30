@@ -17,8 +17,9 @@ public partial class HP : System.Web.UI.MasterPage
     {
         try
         {
-            strEmpEid = BasePage.CheckSSO();
-            if (!string.IsNullOrEmpty(strEmpEid))
+            //strEmpEid = BasePage.CheckSSO();
+            lblName1.Text = Session["UserName"].ToString();
+            /*if (!string.IsNullOrEmpty(strEmpEid))
             {
                 Int64 EmpEid = Convert.ToInt64(strEmpEid);
                 BasePage.SetUserSession(EmpEid);
@@ -26,16 +27,16 @@ public partial class HP : System.Web.UI.MasterPage
                 if (UserSession.VZID == null || UserSession.VZID == string.Empty)
                 {
                     lblName1.Text = string.Empty;
-                    lblName2.Text = string.Empty;
+                    /*lblName2.Text = string.Empty;
                     lblName3.Text = string.Empty;
                 }
                 else
                 {
-                    lblName1.Text = UserSession.EmpFirstName;
+                    lblName1.Text = Session["UserName"].ToString();
                     lblName2.Text = UserSession.EmpName;
                     lblName3.Text = UserSession.EmpName;
                 }
-            }
+            }*/
 
             UserTrack();
         }

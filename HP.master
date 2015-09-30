@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Verizon | VDSI Intranet</title>
+    <title>Verizon :: SecurePay</title>
     <meta charset="utf-8" />
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -80,19 +80,20 @@
 			</p>
 		</div>
 		<div class="grid_4">
-			<h2 class="user vztip bottomRight" rel="userTipContent"><span>Welcome <a href="javascript:;"><asp:Label ID="lblName1" runat="server"></asp:Label>!</a></span><i class="ix"></i><img src="images/content/userdefault_thmb.jpg"/></h2>
+			<h2 class="user vztip bottomRight" rel="userTipContent">
+                <span>Welcome <asp:Label ID="lblName1" runat="server"></asp:Label></span></h2>
 			<div class="tip_content " id="userTipContent" x="-4" y="3">
 				<div class="userInfo">
-					<img src="images/content/userdefault_large.jpg" class="user"/>
-					<div class="userLinks">
+					<!--<img src="images/content/userdefault_large.jpg" class="user"/>-->
+					<!--<div class="userLinks">
 						<h3><asp:Label ID="lblName2" runat="server"></asp:Label></h3>
 						<a href="https://vzweb2.verizon.com/profile_image/edit">My Profile</a>
                         <!--<a href="javascript:void(0);">View by EID</a>-->
-                        <a href="https://vzweb2.verizon.com/logout">Not <asp:Label ID="lblName3" runat="server"></asp:Label>?</a>
+                        <!--<a href="https://vzweb2.verizon.com/logout">Not <asp:Label ID="lblName3" runat="server"></asp:Label>?</a>
 						<div class="more">
 							<a href="https://vzweb2.verizon.com/user/logout">Sign Out</a>
 						</div>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		</div>
@@ -106,7 +107,7 @@
             <!--<div title="VZWeb Help" class="VZHelp">
                 <a class="modalpop" href="page_includes/popup.html" title="VDSI Intranet Help"></a>
             </div>-->
-            <a href="http://vdsindia.verizon.com/vdsicontact.aspx">
+            <!--<a href="http://vdsindia.verizon.com/vdsicontact.aspx">
                 <div title="Contact Us" class="VZHelp">
                 </div>
             </a><a href="Enterfeedback.aspx">
@@ -114,14 +115,11 @@
                     <img width="13" height="13" src="images/global/sm_tab_icon.gif" title="VDSI Feedback"
                         alt="VDSI Intranet">
                 </div>
-            </a>
+            </a>-->
             <div id="globalfooter" class="content_container">
                 Copyright &copy;
                 <script>                    var year = new Date(); year = year.getYear(); if (year < 1900) year += 1900; document.write(year);</script>
-                &nbsp;Verizon &nbsp;<a href="http://vdsindia.verizon.com/authenticated/Homepages/VDSIInfo/VDSISitemap/Sitemap.aspx"
-                    target="_blank" title="Site Map">Site Map</a><span class="ft_div">|</span><a title="Contact VDSI Intranet"
-                        href="mailto:VDSI-Intranet@verizon.com">Contact VDSI Intranet</a><span class="ft_div">|</span><a
-                            title="eWeb" target="_blank" href="http://eweb.verizon.com/">eWeb</a>
+                &nbsp;Verizon &nbsp;
             </div>
         </div>
         </form>

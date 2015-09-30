@@ -29,10 +29,10 @@ namespace IntranetBL
             return empdet;
         }
 
-        public int SaveErrorMessage(string errorMsg)
+        /*public int SaveErrorMessage(string errorMsg)
         {
             return objDL.SaveErrorMessage(errorMsg);
-        }
+        }*/
 
         public int SendFeedbackMail(Int64 CreatedBy, string CreatedByName, string CreatedByEmail, string Message)
         {
