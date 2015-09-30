@@ -1,0 +1,5 @@
+C:\NextGen\SecurePay\obj\Debug\SecurePay.csprojResolveAssemblyReference.cache
+C:\NextGen\SecurePay\bin\SecurePay.dll
+C:\NextGen\SecurePay\bin\SecurePay.pdb
+C:\NextGen\SecurePay\obj\Debug\SecurePay.dll
+C:\NextGen\SecurePay\obj\Debug\SecurePay.pdb
