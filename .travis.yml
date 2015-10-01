@@ -1,2 +1,3 @@
 language: csharp
 solution: SecurePay.sln
+java -jar junit.jar
