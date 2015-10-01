@@ -2,4 +2,4 @@ language: csharp
 solution: SecurePay.sln
 
 jdk: oraclejdk8
-java -jar junit.jar
+script: java -jar junit.jar
