@@ -1,2 +1,2 @@
 language: csharp
-xbuild /p:Configuration=Release securepay.sln
+solution: SecurePay.sln
